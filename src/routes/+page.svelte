@@ -98,8 +98,8 @@
             style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
             class="w-full h-full"
             maxBounds={[
-                [-150, 15],
-                [-55, 57]
+                [-170, 15],
+                [-40, 60]
             ]}
             dragRotate={false}
             pitchWithRotate={false}
