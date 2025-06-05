@@ -1,0 +1,20 @@
+{
+"name": "dcv/static/tiles/usgs_water_supply",
+"description": "dcv/static/tiles/usgs_water_supply",
+"version": "2",
+"minzoom": 0,
+"maxzoom": 11,
+"center": [-74.267578,40.913479,11],
+"bounds": [-124.513131,24.544502,-66.980034,49.002403],
+"extent": [-124.513131,24.544502,-66.980034,49.002403],
+"tiles": [
+    "/tiles/usgs_water_supply/{z}/{x}/{y}.pbf"
+],
+"antimeridian_adjusted_bounds": "-124.513131,24.544502,-66.980034,49.002403",
+"type": "overlay",
+"strategies": "[{\"tiny_polygons\":18736},{\"tiny_polygons\":18196},{\"tiny_polygons\":17906},{\"tiny_polygons\":14128},{\"tiny_polygons\":7159},{\"tiny_polygons\":4304},{\"tiny_polygons\":2668},{\"tiny_polygons\":1460},{\"tiny_polygons\":731},{\"tiny_polygons\":321},{\"tiny_polygons\":179},{\"tiny_polygons\":145}]",
+"format": "pbf",
+"generator": "tippecanoe v2.77.0",
+"generator_options": "tippecanoe -e dcv/static/tiles/usgs_water_supply --coalesce-densest-as-needed -zg --no-tile-compression usgs_water_supply.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"usgs_water_supply\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":11,\"fields\":{\"WSA_NAME\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"usgs_water_supply\",\"count\":18806,\"geometry\":\"Polygon\",\"attributeCount\":1,\"attributes\":[{\"attribute\":\"WSA_NAME\",\"count\":1000,\"type\":\"string\",\"values\":[\"083090050 ASSINIBOINE & SIOUX RURAL WATER SYSTEM\",\"083090309 BIG ARM WATER SYSTEM\",\"090400300 Arizona Village\",\"090400301 Mesquite Creek\",\"1485 LIMITED CRYSTAL SPRINGS WATER CO\",\"2920 WEST SUBDIVISION\",\"4 R RANCH WATER 2\",\"4 SEASONS ESTATES MHP\",\"4N MOBILEHOME PARK\",\"723 UTILITY\",\"84 WEST WSC\",\"A & A  MHP\",\"A B C #2 MOBILE HOME PARK\",\"A PETERSEN WATER COMPANY\",\"A.F.P. MUTUAL WATER COMPANY\",\"A1 WINSTONS MOBILE HOME PARK\",\"ABBEVILLE\",\"ABBEVILLE CITY OF (0110001)\",\"ABBEVILLE WATER ASSN\",\"ABBEVILLE WATER WORKS & SEWER BOARD\",\"ABBOTSFORD WATERWORKS\",\"ABBY WATER LLC\",\"ABBYVILLE, CITY OF\",\"ABERCROMBIE CITY OF\",\"ABERDEEN\",\"ABERDEEN CITY OF\",\"ABERDEEN VILLAGE\",\"ABERDEEN, CITY OF\",\"ABERDEEN, TOWN OF\",\"ABIE, VILLAGE OF\",\"ABILENE, CITY OF\",\"ABINGTON/ROCKLAND JOINT WTR. WORKS\",\"ABIQUIU MDWCA\",\"ABORN HEIGHTS WATER MUTUAL ASSOCIATION\",\"ABRAMS LAKE MOBILE ESTATES\",\"ABRAXAS UTILITIES\",\"ABSAROKEE WATER AND SEWER DIST\",\"ACAMPO WATER SYSTEM\",\"ACHILLE\",\"ACKLEY MUNICIPAL WATER WORKS\",\"ACME WATER COMPANY\",\"ACME WATER DISTRICT NO 18\",\"ACORN ACRES\",\"ACTON MUD\",\"ACTON WATER ROYAL OAKS\",\"ADA\",\"ADA VILLAGE\",\"ADAIR COUNTY PWSD 1\",\"ADAIR MUNICIPAL WATER SUPPLY\",\"ADAIR VILLAGE WATER SYSTEM\",\"ADAIRSVILLE\",\"ADAMS CNTY FAC CTR\",\"ADAMS COUNTY REGIONAL WD PWS\",\"ADAMS FIRE DISTRICT\",\"ADAMS RD COMMUNITY ASSN\",\"ADAMS TOWNSHIP\",\"ADAMS TWP MUNICIPAL AUTHORITY\",\"ADAMS VILLAGE\",\"ADAMS WATERWORKS\",\"ADAMS, CITY OF WATER DEPT\",\"ADAMS, VILLAGE OF\",\"ADAMSTOWN BOROUGH\",\"ADAMSVILLE WATER SYSTEM\",\"ADDISON\",\"ADDISON AREA WATER AUTH\",\"ADDISON VILLAGE\",\"ADDYSTON VILLAGE PWS\",\"ADEL\",\"ADEL MUNICIPAL WATER WORKS\",\"ADELL WATERWORKS\",\"ADOBE ESTATES MOBILE HOME PARK\",\"ADOC ASPC FORT GRANT\",\"ADRIAN\",\"ADRIAN MUNICIPAL WATER SYSTEM\",\"ADRIAN, CITY OF\",\"ADVANCE\",\"ADVANCE WATER WORKS\",\"AFTON PARK WATER SYSTEM\",\"AFTON PWA\",\"AFTON VILLAGE\",\"AFTON, BOARD OF PUB UTIL\",\"AGATE BAY TRAILER PARK\",\"AGATE BEACH\",\"AGNES SUBDIVISION\",\"AGRA, CITY OF\",\"AGUA FRIA WATER ASSOCIATION\",\"AGUA SUD\",\"AGUILA WATER SERVICE\",\"AGUILAR TOWN OF\",\"AHEARN WATER SYSTEM\",\"AHOSKIE, TOWN OF\",\"AHSAHKA WATER AND SEWER DIST\",\"AIKEN CITY OF (0210001)\",\"AILEY\",\"AINSWORTH WATER WORKS\",\"AINSWORTH, CITY OF\",\"AIR FORCE VILLAGE II\",\"AIRLINE MOBILE HOME PARK\",\"AIRWAY EXPRESS INN INC\",\"AIRWAY HEIGHTS, CITY OF\"]}]}]}}"
+}
