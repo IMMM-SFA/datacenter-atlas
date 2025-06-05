@@ -8,7 +8,7 @@
 "bounds": [-124.513131,24.544502,-66.980034,49.002403],
 "extent": [-124.513131,24.544502,-66.980034,49.002403],
 "tiles": [
-    "/tiles/usgs_water_supply/{z}/{x}/{y}.pbf"
+    "/datacenter-atlas/tiles/usgs_water_supply/{z}/{x}/{y}.pbf"
 ],
 "antimeridian_adjusted_bounds": "-124.513131,24.544502,-66.980034,49.002403",
 "type": "overlay",

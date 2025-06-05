@@ -9,7 +9,7 @@ const config = { kit: {
         strict: true,
     }),
     paths: {
-        base: process.env.NODE_ENV === 'production' ? '/datacenter-atlas' : '',
+        base: process.env.NODE_ENV === 'production' ? '/datacenter-atlas' : '/datacenter-atlas',
     }
  } };
 

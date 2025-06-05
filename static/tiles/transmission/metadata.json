@@ -8,7 +8,7 @@
 "bounds": [-159.779336,13.447581,144.823499,65.017210],
 "extent": [-159.779336,13.447581,144.823499,65.017210],
 "tiles": [
-    "/tiles/transmission/{z}/{x}/{y}.pbf"
+    "/datacenter-atlas/tiles/transmission/{z}/{x}/{y}.pbf"
 ],
 "antimeridian_adjusted_bounds": "144.685784,13.447581,294.702037,65.017210",
 "type": "overlay",
