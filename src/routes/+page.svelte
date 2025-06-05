@@ -5,6 +5,7 @@
     import { GeoJsonLayer } from '@deck.gl/layers';
     import { MVTLayer, H3HexagonLayer } from '@deck.gl/geo-layers';
     import Icon from "@iconify/svelte";
+    import Ack from '$lib/Ack.svelte';
 
     import About from '$lib/About.svelte';
     import Expando from '$lib/Expando.svelte';
@@ -32,6 +33,8 @@
         });
         return c;
     };
+
+    let showAck = $state(true);
 
     let aboutExpanded  = $state(false);
     let layersExpanded = $state(true);
@@ -214,5 +217,11 @@
             </DeckGlLayer>
         </MapLibre>
     </div>
+
+    {#if showAck}
+        <Ack
+            bind:show={showAck}
+        />
+    {/if}
 
 </div>
