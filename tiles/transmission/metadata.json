@@ -1,0 +1,20 @@
+{
+"name": "dcv/static/tiles/transmission",
+"description": "dcv/static/tiles/transmission",
+"version": "2",
+"minzoom": 0,
+"maxzoom": 8,
+"center": [-117.421875,33.722348,8],
+"bounds": [-159.779336,13.447581,144.823499,65.017210],
+"extent": [-159.779336,13.447581,144.823499,65.017210],
+"tiles": [
+    "/datacenter-atlas/tiles/transmission/{z}/{x}/{y}.pbf"
+],
+"antimeridian_adjusted_bounds": "144.685784,13.447581,294.702037,65.017210",
+"type": "overlay",
+"strategies": "[{\"coalesced_as_needed\":75898,\"tile_size_desired\":933529},{\"coalesced_as_needed\":80949,\"tile_size_desired\":1162088},{\"coalesced_as_needed\":67563,\"tile_size_desired\":742678},{\"coalesced_as_needed\":48257,\"tile_size_desired\":622315},{\"coalesced_as_needed\":50071,\"tile_size_desired\":664325},{\"coalesced_as_needed\":21581,\"tile_size_desired\":524454},{},{},{}]",
+"format": "pbf",
+"generator": "tippecanoe v2.77.0",
+"generator_options": "tippecanoe -e dcv/static/tiles/transmission --coalesce-densest-as-needed -zg --no-tile-compression transmission.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"transmission\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":8,\"fields\":{\"VOLT_CLASS\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"transmission\",\"count\":94619,\"geometry\":\"LineString\",\"attributeCount\":1,\"attributes\":[{\"attribute\":\"VOLT_CLASS\",\"count\":9,\"type\":\"string\",\"values\":[\"100-161\",\"220-287\",\"345\",\"500\",\"735 AND ABOVE\",\"DC\",\"NOT AVAILABLE\",\"SUB 100\",\"UNDER 100\"]}]}]}}"
+}
