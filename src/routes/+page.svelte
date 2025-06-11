@@ -57,23 +57,24 @@
 >
 
     <div
-        class="absolute top-0 left-0 overflow-auto max-h-screen py-2 pl-2 pr-3 w-[31rem] z-10"
+        class="absolute top-0 left-0 overflow-auto max-h-screen py-1 md:py-2 pl-1 md:pl-2 pr-2 md:pr-3 w-80 md:w-[31rem] z-10"
     >
         <div
-            class="bg-white rounded shadow w-full pt-2 border border-gray-200"
+            class="bg-white rounded shadow w-full pt-1 md:pt-2 border border-gray-200"
         >
             <div
-                class="flex flex-row items-center justify-between px-4"
+                class="flex flex-row items-center justify-between px-2 md:px-4"
             >
                 <h1
-                    class="font-semibold text-xl text-black"
+                    class="font-semibold text-base md:text-xl text-black"
                 >
-                    <span class="font-montserrat text-2xl mr-1">IM<sub>3</sub></span> Open Source Data Center Atlas
+                    <span class="font-montserrat text-lg md:text-2xl mr-0.5 md:mr-1">IM<sub>3</sub></span> Open Source Data Center Atlas
                 </h1>
             </div>
-            <div class="mt-2 mb-4 px-4">
-                <span class="text-base text-black">
-                    Explore data center locations and supporting infrastructure.
+            <div class="mt-1 md:mt-2 mb-2 md:mb-4 px-2 md:px-4">
+                <span class="text-xs md:text-base text-black">
+                    <span class="hidden md:inline">Explore data center locations and supporting infrastructure.</span>
+                    <span class="md:hidden inline">Data centers and supporting infrastructure.</span>
                 </span>
             </div>
             <Expando label='Layers' bind:expanded={layersExpanded}>

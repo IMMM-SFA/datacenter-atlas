@@ -25,7 +25,7 @@
 </script>
 
 <div
-    class="text-sm flex flex-col gap-4 pb-4"
+    class="text-xs md:text-sm flex flex-col gap-4 pb-4"
 >
     <p>
         The <Link href="https://im3.pnnl.gov">IM3</Link> Open Source Data Center Atlas provides locations and facility footprints (when available) of existing data centers across the United States (U.S.). In addition to data center locations, the dashboard also provides complementary information on electricity infrastructure, municipal water supply, and high-speed fiber availability. This dashboard can be used to identify areas of concentrated data center development and inform government and private sector planning strategies for future buildout of data centers and the infrastructure necessary to support it.
