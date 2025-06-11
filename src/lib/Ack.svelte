@@ -7,13 +7,13 @@
 <div
     class="
         absolute top-0 left-0 right-0 bottom-0
-        bg-black/75 z-50
+        bg-black/75 z-50 pb-4
         flex items-center justify-center overflow-hidden
     "
 >
     <div
         class="
-            w-11/12 h-11/12 max-w-xl max-h-max
+            w-11/12 h-3/4 max-w-xl max-h-max
             bg-white rounded shadow
             px-4 py-2 flex flex-col
         "
