@@ -2,12 +2,39 @@
 
 @theme {
     --font-montserrat: Montserrat, sans-serif;
+	--font-sans: Archivo, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
- /* Montserrat for IM3 logo */
- @font-face {
+/* Montserrat for IM3 logo */
+@font-face {
 	font-family: 'Montserrat';
 	src: url('$lib/fonts/Montserrat-Black.ttf');
 	font-style: normal;
 	font-weight: 900;
- }
+}
+
+/* Archivo for everything else */
+@font-face {
+	font-family: 'Archivo';
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	font-named-instance: "Regular";
+	src: url('$lib/fonts/Archivo-VariableFont_wdth,wght.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Archivo';
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+	font-named-instance: "Italic";
+	src: url('$lib/fonts/Archivo-Italic-VariableFont_wdth,wght.ttf') format('ttf');
+}
+
+.maplibregl-popup-content {
+	background-color: black!important;
+}
+
+.maplibregl-popup-tip {
+	border-top-color: black!important;
+}

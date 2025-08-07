@@ -8,7 +8,7 @@
 <a
     target="_blank"
     rel="noreferrer"
-    class="cursor-pointer text-blue-600 underline-offset-2 hover:underline"
+    class="cursor-pointer text-sky-400 underline-offset-2 hover:underline"
     href={href}
 >
     {#if children}

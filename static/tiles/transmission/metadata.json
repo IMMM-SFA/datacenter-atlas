@@ -1,20 +1,20 @@
 {
-"name": "dcv/static/tiles/transmission",
-"description": "dcv/static/tiles/transmission",
+"name": "static/tiles/transmission",
+"description": "static/tiles/transmission",
 "version": "2",
 "minzoom": 0,
-"maxzoom": 8,
-"center": [-117.421875,33.722348,8],
-"bounds": [-159.779336,13.447581,144.823499,65.017210],
-"extent": [-159.779336,13.447581,144.823499,65.017210],
+"maxzoom": 11,
+"center": [-111.884766,33.358031,11],
+"bounds": [-168.951710,17.945729,-65.299738,70.641632],
+"extent": [-168.951710,17.945729,-65.299738,70.641632],
 "tiles": [
     "/datacenter-atlas/tiles/transmission/{z}/{x}/{y}.pbf"
 ],
-"antimeridian_adjusted_bounds": "144.685784,13.447581,294.702037,65.017210",
+"antimeridian_adjusted_bounds": "-168.951710,17.945729,-65.299738,70.641632",
 "type": "overlay",
-"strategies": "[{\"coalesced_as_needed\":75898,\"tile_size_desired\":933529},{\"coalesced_as_needed\":80949,\"tile_size_desired\":1162088},{\"coalesced_as_needed\":67563,\"tile_size_desired\":742678},{\"coalesced_as_needed\":48257,\"tile_size_desired\":622315},{\"coalesced_as_needed\":50071,\"tile_size_desired\":664325},{\"coalesced_as_needed\":21581,\"tile_size_desired\":524454},{},{},{}]",
+"strategies": "[{\"coalesced_as_needed\":244509,\"tiny_polygons\":1314,\"tile_size_desired\":970843},{\"coalesced_as_needed\":252667,\"tiny_polygons\":1314,\"tile_size_desired\":1284389},{\"coalesced_as_needed\":244128,\"tiny_polygons\":1427,\"tile_size_desired\":872332},{\"coalesced_as_needed\":229994,\"tiny_polygons\":1436,\"tile_size_desired\":746144},{\"coalesced_as_needed\":231370,\"tiny_polygons\":718,\"tile_size_desired\":863660},{\"coalesced_as_needed\":181070,\"tiny_polygons\":776,\"tile_size_desired\":666201},{\"tiny_polygons\":1403},{\"tiny_polygons\":1341},{\"tiny_polygons\":1015},{\"tiny_polygons\":333},{\"tiny_polygons\":39},{\"tiny_polygons\":17}]",
 "format": "pbf",
 "generator": "tippecanoe v2.77.0",
-"generator_options": "tippecanoe -e dcv/static/tiles/transmission --coalesce-densest-as-needed -zg --no-tile-compression transmission.geojson",
-"json": "{\"vector_layers\":[{\"id\":\"transmission\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":8,\"fields\":{\"VOLT_CLASS\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"transmission\",\"count\":94619,\"geometry\":\"LineString\",\"attributeCount\":1,\"attributes\":[{\"attribute\":\"VOLT_CLASS\",\"count\":9,\"type\":\"string\",\"values\":[\"100-161\",\"220-287\",\"345\",\"500\",\"735 AND ABOVE\",\"DC\",\"NOT AVAILABLE\",\"SUB 100\",\"UNDER 100\"]}]}]}}"
+"generator_options": "tippecanoe -e static/tiles/transmission --coalesce-densest-as-needed -zg --no-tile-compression ../transmission.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"transmission\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":11,\"fields\":{\"voltage\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"transmission\",\"count\":267773,\"geometry\":\"LineString\",\"attributeCount\":1,\"attributes\":[{\"attribute\":\"voltage\",\"count\":96,\"type\":\"number\",\"values\":[10000,100000,11000,110000,1100000,111500,11500,115000,1150003,12000,120000,12470,12500,125000,13000,13200,132000,1333000,13800,138000,1380000,14400,14750,15000,150000,16000,161000,17500,18000,19935,20000,200000,20800,21000,2200,22000,220000,23000,230000,235000,23900,2400,24000,240000,24900,24940,25000,250000,26000,26400,27000,27600,276000,287000,3000,32000,33000,34,34000,34500,345000,34599,35000,38000,40000,400000,4100,4160,41600,43000,43800,44000,450000,46000,460000,4800,480000,49000,5000,50000,500000,55000,57000,57100,60000,66000,6900,69000,690002,70000,71000,7200,765000,87000,88000,92000],\"min\":34,\"max\":1380000}]}]}}"
 }
