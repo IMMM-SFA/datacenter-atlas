@@ -9,6 +9,7 @@
         'county'                : 'County',
         'sqft'                  : 'Footprint sq ft',
         'VOLT_CLASS'            : 'Voltage Class (kV)',
+        'voltage'               : 'Voltage (V)',
         'WSA_NAME'              : 'Water Service Area Name',
         'provider_count'        : 'High Speed Fiber Providers',
         'growth_scenario'       : 'Growth Scenario',
