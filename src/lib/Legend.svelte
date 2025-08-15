@@ -89,7 +89,7 @@
         <div class="ml-auto h-4 md:h-5 w-4 md:w-5 rounded-full bg-[#8cdd35]/85 border border-solid border-[#8cdd35]/85"></div>
         <div class="h-4 md:h-5 w-6 md:w-18 rounded-xs bg-[#8cdd35]/85 border border-solid border-[#8cdd35]/85 text-white font-semibold text-[0.5rem] md:text-[0.67rem]"></div>
     </button>
-    <div class="flex flex-row pl-6 md:pl-7 md:pl-8 gap-4 mb-2 -mt-1">
+    <div class="flex flex-row pl-6 md:pl-8 gap-4 mb-2 -mt-1">
         <div
             class="
                 flex flex-col text-white text-xs
@@ -104,11 +104,12 @@
                 bind:value={projectedScenario}
                 disabled={!projectedDataCenterOn}
                 id='projectedScenario'
-                class="border border-white rounded-sm"
+                class="bg-black text-white border border-white rounded-sm appearance-none"
             >
                 {#each projectedScenarios as s}
                     <option
-                        class=""
+                        style="background-color: black !important; color: white !important;"
+                        class="bg-black text-white"
                         value={s}
                     >
                         {toTitleCase(s)}
@@ -130,14 +131,15 @@
                 bind:value={projectedGravity}
                 disabled={!projectedDataCenterOn}
                 id='projectedGravity'
-                class="border border-white rounded-sm"
+                class="bg-black text-white border border-white rounded-sm appearance-none"
             >
                 {#each projectedGravities as g}
                     <option
+                        style="background-color: black !important; color: white !important;"
                         class=""
                         value={g}
                     >
-                        {g}
+                        {g}%
                     </option>
                 {/each}
             </select>
@@ -248,3 +250,10 @@
         </div>
     </button>
 </div>
+<style>
+    select {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+</style>
