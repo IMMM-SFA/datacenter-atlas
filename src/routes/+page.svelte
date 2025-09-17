@@ -299,7 +299,7 @@
 				stroked={true}
 				filled={false}
 				getLineColor={[255, 255, 255, 200]}
-				getLineWidth={2}
+				getLineWidth={1}
 				lineWidthUnits="pixels"
 				parameters={{ depthTest: false }}
 			>
