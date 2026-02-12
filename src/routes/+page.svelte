@@ -115,7 +115,7 @@
                     "
 				>
 					<div class="flex flex-1 flex-row items-center justify-around pl-2 text-xs md:text-sm">
-						<Link href="https://doi.org/10.57931/2550666">
+						<Link href="https://doi.org/10.57931/3017294">
 							<Icon class="mr-1 inline-block" inline icon="carbon:data-center"></Icon>Existing
 						</Link>
 						<Link href="https://doi.org/10.57931/2571680">
