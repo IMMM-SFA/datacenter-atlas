@@ -30,7 +30,7 @@
 
 <div class="pb-2">
 	<button
-		class="flex min-h-[3rem] w-full cursor-pointer flex-row items-start gap-1 md:gap-2"
+		class="flex h-8 w-full cursor-pointer flex-row items-center gap-1 md:gap-2"
 		onclick={() => {
 			existingDataCenterOn = !existingDataCenterOn;
 		}}
@@ -47,14 +47,13 @@
 					: 'proicons:checkbox-unchecked'
 				: 'proicons:checkbox-indeterminate'}
 		/>
-		<div class="ml-1 flex flex-col md:ml-0">
-			<span class="text-xs text-white md:text-sm">
-				Existing Data Centers
-			</span>
-			<span class="text-[0.65rem] italic text-gray-300 md:text-xs">
-				(Last Updated Feb 09, 2026)
-			</span>
-		</div>
+		<span
+			class="
+                ml-1 text-xs text-white md:ml-0 md:text-sm
+            "
+		>
+			Existing Data Centers
+		</span>
 		{#if !existingDataCenterLoaded}
 			<Icon inline class="shrink-0 text-[#d77900]" icon="line-md:downloading-loop" />
 		{/if}

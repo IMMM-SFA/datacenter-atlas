@@ -18,11 +18,7 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.test
-datacenters-env/
 
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-
-# Local raw geospatial data
-data_center_database/
