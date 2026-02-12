@@ -43,7 +43,7 @@
         For the existing data centers:
     </p>
     <p class="ml-1 pl-2 border-l-3 border-l-[#d77900] rounded text-xs italic">
-        Mongird, K., Thurber, T., Vernon, C., Burleyson, C., Akdemir, K. Z., & Rice, J. (2025). IM3 Open Source Data Center Atlas (Version v1) [Data set]. MSD-LIVE Data Repository. <Link href=https://doi.org/10.57931/2550666 />
+        Mongird, K., Thurber, T., Vernon, C., Burleyson, C., Akdemir, K. Z., & Rice, J. (2026). IM3 Open Source Data Center Atlas (v2026.02.09) [Data set]. MSD-LIVE Data Repository. <Link href=https://doi.org/10.57931/3017294 />
     </p>
     <p>
         For the projected data centers:
