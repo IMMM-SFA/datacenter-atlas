@@ -49,7 +49,7 @@
         For the projected data centers:
     </p>
     <p class="ml-1 pl-2 border-l-3 border-l-[#d77900] rounded text-xs italic">
-        Mongird, K., Burleyson, C., Akdemir, K. Z., Thurber, T., Vernon, C., & Rice, J. (2025). IM3 Projected US Data Center Locations (Version v1) [Data set]. MSD-LIVE Data Repository. <Link href=https://doi.org/10.57931/2571680 />
+        Mongird, K., Burleyson, C., Akdemir, K. Z., Vernon, C., & Rice, J. (2026). IM3 Projected US Data Center Locations (v1.1) [Data set]. MSD-LIVE Data Repository. <Link href=https://doi.org/10.57931/3020186 />
     </p>
     <p>
         Additionally, because of the Open Database License (ODbL) license applied to the OSM dataset any derivative datasets of the existing locations intended for reuse should continue to apply the ODbL license.

@@ -76,7 +76,7 @@
 		</div>
 	</button>
 	<button
-		class="flex h-8 w-full flex-row items-center gap-1 md:gap-2"
+		class="flex min-h-[2.75rem] w-full cursor-pointer flex-row items-start gap-2"
 		onclick={() => {
 			projectedDataCenterOn = !projectedDataCenterOn;
 		}}
@@ -93,30 +93,40 @@
 					: 'proicons:checkbox-unchecked'
 				: 'proicons:checkbox-indeterminate'}
 		/>
-		<span
-			class="
-                ml-1 text-xs text-white md:ml-0 md:text-sm
-            "
-		>
-			Projected Data Centers (2035)
-		</span>
+		<div class="flex flex-col items-start mb-2">
+			<span class="text-xs text-white md:text-sm leading-tight">
+				Projected Hyperscale Data Centers
+			</span>
+			<span class="text-xs text-white md:text-sm leading-tight">
+				(2035)
+			</span>
+			<span class="text-[0.7rem] italic text-gray-300 leading-tight md:text-xs">
+			(Last Updated Feb 27, 2026)
+			</span>
+		</div>
 		{#if !projectedDataCenterLoaded}
 			<Icon inline class="shrink-0 text-[#d77900]" icon="line-md:downloading-loop" />
 		{/if}
+
+		<!--
+		<div class="ml-auto h-4 w-4 rounded-full border border-solid border-[#8cdd35]/85 bg-[#8cdd35]/85 md:h-5 md:w-5"></div>
+		<div class="h-4 w-6 rounded-xs border border-solid border-[#8cdd35]/85 bg-[#8cdd35]/85 text-[0.5rem] font-semibold text-white md:h-5 md:w-18 md:text-[0.67rem]"></div>
+		-->
+		
 		<div
-			class="ml-auto h-4 w-4 rounded-full border border-solid border-[#8cdd35]/85 bg-[#8cdd35]/85 md:h-5 md:w-5"
+			class="ml-auto h-4 w-4 rounded-full border border-solid border-[#E3A814]/85 bg-[#E3A814]/85 md:h-5 md:w-5"
 		></div>
 		<div
-			class="h-4 w-6 rounded-xs border border-solid border-[#8cdd35]/85 bg-[#8cdd35]/85 text-[0.5rem] font-semibold text-white md:h-5 md:w-18 md:text-[0.67rem]"
+			class="h-4 w-6 rounded-xs border border-solid border-[#E3A814]/85 bg-[#E3A814]/85 text-[0.5rem] font-semibold text-white md:h-5 md:w-18 md:text-[0.67rem]"
 		></div>
 	</button>
-	<div class="-mt-1 mb-2 flex flex-row gap-4 pl-6 md:pl-8">
+	<div class="mb-2 flex flex-row gap-4 pl-6 md:pl-8">
 		<div
 			class="
                 flex flex-col text-xs text-white
             "
 		>
-			<label for="projectedScenario"> Scenario: </label>
+			<label for="projectedScenario">Scenario:</label>
 			<select
 				bind:value={projectedScenario}
 				disabled={!projectedDataCenterOn}
@@ -139,7 +149,7 @@
                 flex flex-col text-xs text-white
             "
 		>
-			<label for="projectedGravity"> Market Gravity: </label>
+			<label for="projectedGravity">Market Gravity:</label>
 			<select
 				bind:value={projectedGravity}
 				disabled={!projectedDataCenterOn}

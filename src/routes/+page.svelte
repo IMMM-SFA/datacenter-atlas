@@ -118,7 +118,7 @@
 						<Link href="https://doi.org/10.57931/3017294">
 							<Icon class="mr-1 inline-block" inline icon="carbon:data-center"></Icon>Existing
 						</Link>
-						<Link href="https://doi.org/10.57931/2571680">
+						<Link href="https://doi.org/10.57931/3020186">
 							<Icon class="mr-1 inline-block" inline icon="ph:chart-line-up"></Icon>Projected
 						</Link>
 					</div>
