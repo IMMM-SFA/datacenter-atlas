@@ -243,8 +243,8 @@
 					visible={projectedDataCenterOn}
 					type={GeoJsonLayer}
 					data={`${base}/projected/${projectedScenario}_${projectedGravity}_market_gravity_epsg4326_centroids.geojson`}
-					getLineColor={[140, 221, 53, 200]}
-					getFillColor={[140, 221, 53, 200]}
+				getLineColor={[227, 168, 20, 217]}
+				getFillColor={[227, 168, 20, 217]}
 					getLineWidth={1}
 					getPointRadius={4}
 					lineWidthUnits="pixels"
@@ -280,8 +280,8 @@
 					visible={projectedDataCenterOn}
 					type={GeoJsonLayer}
 					data={`${base}/projected/${projectedScenario}_${projectedGravity}_market_gravity_epsg4326.geojson`}
-					getLineColor={[140, 221, 53, 200]}
-					getFillColor={[140, 221, 53, 200]}
+				getLineColor={[227, 168, 20, 217]}
+				getFillColor={[227, 168, 20, 217]}
 					getPointRadius={4}
 					getLineWidth={1}
 					lineWidthUnits="pixels"

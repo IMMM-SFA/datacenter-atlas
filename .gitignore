@@ -8,7 +8,6 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
-static/tiles/
 
 # OS
 .DS_Store
@@ -27,4 +26,3 @@ vite.config.ts.timestamp-*
 
 # Local raw geospatial data
 data_center_database/
-
