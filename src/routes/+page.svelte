@@ -243,8 +243,8 @@
 					visible={projectedDataCenterOn}
 					type={GeoJsonLayer}
 					data={`${base}/projected/${projectedScenario}_${projectedGravity}_market_gravity_epsg4326_centroids.geojson`}
-				getLineColor={[227, 168, 20, 217]}
-				getFillColor={[227, 168, 20, 217]}
+					getLineColor={[180, 130, 15, 255]}
+					getFillColor={[227, 168, 20, 255]}
 					getLineWidth={1}
 					getPointRadius={4}
 					lineWidthUnits="pixels"
@@ -263,9 +263,9 @@
 					type={GeoJsonLayer}
 					data={`${base}/im3_datacenter_footprints.geojson`}
 					getLineColor={(d) =>
-						d?.properties?.type === 'campus' ? [209, 178, 0, 180] : [3, 160, 139]}
+					d?.properties?.type === 'campus' ? [107, 158, 62] : [3, 160, 139]}
 					getFillColor={(d) =>
-						d?.properties?.type === 'campus' ? [255, 226, 63, 180] : [5, 230, 201]}
+					d?.properties?.type === 'campus' ? [140, 221, 53] : [5, 230, 201]}
 					getPointRadius={4}
 					getLineWidth={1}
 					lineWidthUnits="pixels"
@@ -280,8 +280,8 @@
 					visible={projectedDataCenterOn}
 					type={GeoJsonLayer}
 					data={`${base}/projected/${projectedScenario}_${projectedGravity}_market_gravity_epsg4326.geojson`}
-				getLineColor={[227, 168, 20, 217]}
-				getFillColor={[227, 168, 20, 217]}
+					getLineColor={[180, 130, 15, 255]}
+					getFillColor={[227, 168, 20, 255]}
 					getPointRadius={4}
 					getLineWidth={1}
 					lineWidthUnits="pixels"

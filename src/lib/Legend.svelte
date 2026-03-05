@@ -70,7 +70,7 @@
 			Bldg
 		</div>
 		<div
-			class="h-4 w-6 rounded-xs border border-solid border-[#D1B200]/70 bg-[#ffe23f]/70 text-[0.5rem] font-semibold text-white md:h-5 md:w-8 md:text-[0.67rem]"
+			class="h-4 w-6 rounded-xs border border-solid border-[#6B9E3E] bg-[#8cdd35] text-[0.5rem] font-semibold text-white md:h-5 md:w-8 md:text-[0.67rem]"
 		>
 			Land
 		</div>
