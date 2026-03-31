@@ -26,3 +26,6 @@ vite.config.ts.timestamp-*
 
 # Local raw geospatial data
 data_center_database/
+
+#Projected data centers
+im3_projected_data_centers_v1.1/
