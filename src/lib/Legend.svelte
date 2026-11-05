@@ -53,7 +53,7 @@
 		Existing Data Centers
 	</span>
 	<span class="text-[0.7rem] italic text-gray-300 leading-tight md:text-xs">
-		(Last Updated Feb 09, 2026)
+		(Last Updated Nov 02, 2026)
 	</span>
 </div>
 
