@@ -273,9 +273,9 @@
 		<div class="ml-auto flex flex-row items-center">
 			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.25)">1</Hexagon>
 			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.35)" class="mt-4 -ml-1">2</Hexagon>
-			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.45)" class="-ml-1">5</Hexagon>
-			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.55)" class="mt-4 -ml-1">10</Hexagon>
-			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.65)" class="-ml-1">25</Hexagon>
+			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.45)" class="-ml-1">3</Hexagon>
+			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.55)" class="mt-4 -ml-1">4</Hexagon>
+			<Hexagon backgroundColorRGBA="rgba(233, 7, 108, 0.65)" class="-ml-1">5+</Hexagon>
 		</div>
 	</button>
 </div>

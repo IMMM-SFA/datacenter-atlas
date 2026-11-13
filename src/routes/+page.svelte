@@ -18,19 +18,18 @@
 	const projectedGravities = [0, 25, 50, 75, 100];
 
 	const fiberColors = (d) => {
-		const domain = [1, 2, 5, 10, 25];
+		const domain = [1, 2, 3, 4];
 		const colors = [
 			[233, 7, 108, 64],
 			[233, 7, 108, 84],
 			[233, 7, 108, 104],
 			[233, 7, 108, 124],
-			[233, 7, 108, 144],
 			[233, 7, 108, 164]
 		];
 		const v = d.provider_count;
 		let c = colors[colors.length - 1];
-		domain.some((d, i) => {
-			if (v < d) {
+		domain.some((threshold, i) => {
+			if (v <= threshold) {
 				c = colors[i];
 				return true;
 			}
